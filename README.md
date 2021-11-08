@@ -16,3 +16,5 @@ common cleanup house tasks like deleting logs, temp folder and mysql backups
 ## How will I keep 7 days log by date ?
 
 	forfiles /p "E:\jboss\standalone\log" /s /m *.log /D -7 /C "cmd /c del @path"
+	
+### adding to check ssh support with key token
